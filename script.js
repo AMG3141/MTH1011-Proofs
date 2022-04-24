@@ -8,6 +8,7 @@ function nextTheorem(theoremImg, proofImg) {
 	var randNum = Math.floor(Math.random() * 9);
 	document.getElementById(theoremImg).src = "./images/" + randNum + ".PNG";
 	hideProof(proofImg);
+	document.getElementById("btnPf").disabled = false;
 }
 
 /**

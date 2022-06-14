@@ -1,0 +1,11 @@
+button {
+    font-family: Cambria;
+    background-color: white;
+    color: black;
+}
+
+.image {
+    margin: 100px;
+    padding:100px;
+    background-color: aqua;
+}
